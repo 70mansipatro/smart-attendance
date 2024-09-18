@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="MFitness reponsive webite build using HTML5, CSS3 and Javascript The complete layout of the page is build using grid layout and flexbox with some cool animations." />
+  <title>Smart attendance</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="header" id="home">
+    <div class="container">
+      <nav class="header-navigation" aria-label="navigation">
+        <div class="logo"><span class="yellow">SMART</span>attendance</div>
+
+        <img src="https://raw.githubusercontent.com/Manoranjan-D/responsive-website-gym/master/img/nav-icon.svg"
+          alt="navigation icon" class="nav-icon" width="30" height="30" />
+
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#reg">Register</a>
+          </li>
+          <li>
+            <a href="#offer">attendance sheet</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="section-hero">
+      <div class="container hero-box">
+        <div class="hero-content margin-bottom">
+          <h1 class="heading heading--1 margin-bottom">
+            HEY ! IT'S CLASS TIME
+          </h1>
+          <p class="description">
+            PAY-ATTAINTION
+          </p>
+        </div>
+        <div class="btn-group">
+          <button class="btn btn__primary margin-right margin-bottom" ><a href="index.html">  start now</a>
+
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION ABOUT -->
+    <section class="section-about" id="about">
+      <div class="about-box container">
+        <div class="about-box__content" data-aos="fade-up">
+          <h2 class="heading heading--2">
+            About <span class="yellow">SERENITY</span>CLASSROOM
+          </h2>
+          <p>
+            "Smart Attendance System using Face Recognition streamlines attendance tracking, providing accurate records
+            for educational staff, real-time updates for parents, and hassle-free attendance for students, enhancing
+            overall efficiency and student engagement."
+          </p>
+          <a href="#" class="link-button">Read More →</a>
+        </div>
+        <figure class="about-box__image" data-aos="fade-up">
+          <img src="attend.jpg"
+            alt="about-image-one" width="350" height="233" />
+          <img src="present-absent.jpg"
+            alt="about-image-twwo" width="350" height="233" />
+          <img src="detect.jpg"
+            alt="about-image-three" width="420" height="280" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- SECTION COURSES -->
+    <section class="section-courses" id="courses">
+      <div class="container courses-box" data-aos="fade-up">
+        <header class="courses-heading">
+          <h2 class="heading heading--2 underline" id="reg">Register</h2>
+          <p>
+            Student details
+          </p>
+        </header>
+
+        <article class="courses-content">
+          <div class="class-card">
+            <img class="class-card__img"
+              src="download.jpeg"
+              alt="NAME" width="550" height="550" />
+
+            <div class="class-card__overlay">
+              <div class="text">
+                <p>
+                  students put your name.
+                </p>
+
+                <a href="#" class="link-button">Read More →</a>
+              </div>
+            </div>
+
+            <div class="class-card__title">NAME</div>
+          </div>
+
+          <div class="class-card">
+            <img class="class-card__img"
+              src="phoneno.jpeg"
+              alt="STUDENT PH NO." width="550" height="550" />
+            <div class="class-card__overlay">
+              <div class="text">
+                <p>
+                  students put your own phone number in  regiter box.
+                </p>
+
+                <a href="#" class="link-button">Read More →</a>
+              </div>
+            </div>
+            <div class="class-card__title">STUDENT PH NO.</div>
+          </div>
+
+          <div class="class-card">
+            <img class="class-card__img"
+              src="parents.jpeg"
+              alt="PARENTS CONTACT" width="550" height="550" />
+
+            <div class="class-card__overlay">
+              <div class="text">
+                <p>
+                  parents will be kept informed.
+                </p>
+
+                <a href="#" class="link-button">Read More →</a>
+              </div>
+            </div>
+
+            <div class="class-card__title">PARENTS CONTACT NO.</div>
+          </div>
+
+          <div class="class-card">
+            <img class="class-card__img"
+              src="photo.jpeg"
+              alt="PASSPORT PHOTO" width="550" height="550" />
+            <div class="class-card__overlay">
+              <div class="text">
+                <p>
+                  students , please submit your passport-sized photos.
+                </p>
+
+                <a href="#" class="link-button">Read More →</a>
+              </div>
+            </div>
+            <div class="class-card__title">PASSPORT PHOTO</div>
+          </div>
+
+          <div class="class-card">
+            <img class="class-card__img"
+              src="recentt.jpeg"
+              alt="RECENT PHOTO" width="550" height="550" />
+            <div class="class-card__overlay">
+              <div class="text">
+                <p>
+                  student ,please bring your up-to-date photos
+
+                  -> NOW FILL THE FORM
+                </p>
+
+                <a href="#" class="link-button">Read More →</a>
+              </div>
+            </div>
+            <div class="class-card__title">RECENT PHOTO</div>
+          </div>
+
+          <div class="class-card">
+            <img class="class-card__img"
+              src="register.png"
+              alt="FORM-FILL" width="550" height="550" />
+            <div class="class-card__overlay">
+              <div class="text">
+                <p>
+                  register-form
+                </p>
+
+                <a href="reg/index.html" class="link-button">SIGN-UP</a>
+              </div>
+            </div>
+            <div class="class-card__title">FORM-FILL</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECTION OFFER -->
+    <section class="section-offer" id="offer">
+      <div class="offer-box">
+        <div class="offer" data-aos="fade-up">
+          <h2 class="heading heading--2 margin-bottom">
+            weekly count attendance
+          </h2>
+          <p class="margin-bottom">
+           NOTICE WILL BE GIVEN TO PARENTS
+          </p>
+          <button class="btn btn__primary"><a href="atten/index.html">check</a></button>
+        </div>
+
+        <div class="offer-img"></div>
+      </div>
+    </section>
+
+    <!-- SECTION COACHES -->
+    <section class="section-coaches" id="trainers">
+      <div class="container coaches-box" data-aos="fade-up">
+        <header class="coache-heading">
+          <h2 class="heading heading--2 underline margin-bottom">
+            OUR ACADEMICIAN
+          </h2>
+          <p>
+            OUR FACULTY 
+          </p>
+        </header>
+
+        <article class="coache-content">
+          <div class="c-card">
+            <img src="principal.jpeg"
+              alt="Administrator" class="c-card__img" width="550" height="550" />
+
+            <div class="overlay">
+              <img
+                src="https://raw.githubusercontent.com/Manoranjan-D/responsive-website-gym/master/img/logo-whatsapp.svg"
+                alt="whatsapp-icon" width="30" height="30" />
+
+              <img
+                src="https://raw.githubusercontent.com/Manoranjan-D/responsive-website-gym/master/img/logo-facebook.svg"
+                alt="facebook-icon" width="30" height="30" />
+
+              <img
+                src="https://raw.githubusercontent.com/Manoranjan-D/responsive-website-gym/master/img/logo-instagram.svg"
+                alt="instagram-icon" width="30" height="30" />
+
+              <img
+                src="https://raw.githubusercontent.com/Manoranjan-D/responsive-website-gym/master/img/logo-twitter.svg"
+                alt="twitter-icon" width="30" height="30" />
+            </div>
+
+            <div class="c-card__content">
+              <p class="c-name">principal</p>
+              <p class="c-title">Administrator</p>
+            </div>
+          </div>
+
+          <div class="c-card">
+            <img src="deprt.png"
+              alt="HOD" class="c-card__img" width="550" height="550" />
+
+            <div class="overlay">
+              <img
+                src="https://raw.githubusercontent.com/Manoranjan-D/responsive-website-gym/master/img/logo-whatsapp.svg"
+                alt="whatsapp-icon" width="30" height="30" />
+
+              <img
+                src="https://raw.githubusercontent.com/Manoranjan-D/responsive-website-gym/master/img/logo-facebook.svg"
+                alt="facebook-icon" width="30" height="30" />
+
+              <img
+                src="https://raw.githubusercontent.com/Manoranjan-D/responsive-website-gym/master/img/logo-instagram.svg"
+                alt="instagram-icon" width="30" height="30" />
+
+              <img
+                src="https://raw.githubusercontent.com/Manoranjan-D/responsive-website-gym/master/img/logo-twitter.svg"
+                alt="twitter-icon" width="30" height="30" />
+            </div>
+
+            <div class="c-card__content">
+              <p class="c-name">Departmental</p>
+              <p class="c-title">HOD</p>
+            </div>
+          </div>
+
+          <div class="c-card">
+            <img src="staff.jpeg"
+              alt="Managing staff" class="c-card__img" width="550" height="550" />
+            <div class="overlay">
+              <img
+                src="https://raw.githubusercontent.com/Manoranjan-D/responsive-website-gym/master/img/logo-whatsapp.svg"
+                alt="whatsapp-icon" width="30" height="30" />
+
+              <img
+                src="https://raw.githubusercontent.com/Manoranjan-D/responsive-website-gym/master/img/logo-facebook.svg"
+                alt="facebook-icon" width="30" height="30" />
+
+              <img
+                src="https://raw.githubusercontent.com/Manoranjan-D/responsive-website-gym/master/img/logo-instagram.svg"
+                alt="instagram-icon" width="30" height="30" />
+
+              <img
+                src="https://raw.githubusercontent.com/Manoranjan-D/responsive-website-gym/master/img/logo-twitter.svg"
+                alt="twitter-icon" width="30" height="30" />
+            </div>
+
+            <div class="c-card__content">
+              <p class="c-name">mentor</p>
+              <p class="c-title">Managing staff</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECTION REVIEW -->
+    <section class="section-review" id="review">
+      <div class="review-box container" data-aos="fade-up">
+        <h2 class="heading heading--2 underline margin-bottom grid-center">
+          what parents and teachers say
+        </h2>
+
+        <div class="review-card">
+          <img src="joining.jpeg"
+            alt="user" class="review-card__image" width="100" height="100" />
+          <blockquote class="review-card__content">
+            <p class="text">
+              "Excellent initiative! Smart classroom has enhanced my child's learning experience, increased engagement, and improved academic performance significantly, thank you!"
+            </p>
+
+            <div class="name">ALL PARENTS</div>
+          </blockquote>
+        </div>
+
+        <div class="review-card">
+          <img src="teacher.jpeg"
+            alt="user" class="review-card__image" width="100" height="100" />
+          <blockquote class="review-card__content">
+            <p class="text">
+              Frees up teachers' time, allowing them to focus on teaching and student support.
+            </p>
+            <div class="name">TEACHERS</div>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION CONTACT -->
+    <section class="section-contact" id="contact">
+      <div class="contact-box">
+        <form class="form-grp" data-aos="fade-up">
+          <h2 class="heading heading--2 margin-bottom">
+            Get in <span class="yellow">Touch</span>
+          </h2>
+
+          <input type="text" class="form form__input" placeholder="Name" />
+          <input type="text" class="form form__input" placeholder="Email" />
+          <input type="text" class="form form__input" placeholder="Phone" />
+          <textarea name="message" cols="5" rows="3" class="form form__input" placeholder="Message"></textarea>
+          <button class="btn btn__primary form-flex">Send  </button>
+        </form>
+        <div id="mapid" data-aos="fade-up"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="section-footer" id="footer">
+    <div class="footer-box container">
+      <div class="contact-details">
+        <h2 class="margin-bottom"><span class="yellow">Smart</span>face detect attendance</h2>
+
+        <ul class="contact-data">
+          <li class="location">infocity ,trident academy of technology,bhubaneswar</li>
+          <li class="phone">+91234567809</li>
+          <li class="email">trident@gmai.com</li>
+          <li class="social">
+            <img
+              src="https://raw.githubusercontent.com/Manoranjan-D/responsive-website-gym/master/img/logo-whatsapp.svg"
+              alt="whatsapp icon" width="35" height="35" />
+
+            <img
+              src="https://raw.githubusercontent.com/Manoranjan-D/responsive-website-gym/master/img/logo-facebook.svg"
+              alt="facebook icon" width="35" height="35" />
+
+            <img
+              src="https://raw.githubusercontent.com/Manoranjan-D/responsive-website-gym/master/img/logo-instagram.svg"
+              alt="instagram icon" width="35" height="35" />
+
+            <img src="https://raw.githubusercontent.com/Manoranjan-D/responsive-website-gym/master/img/logo-twitter.svg"
+              alt="twitter icon" width="35" height="35" />
+          </li>
+        </ul>
+      </div>
+
+      <nav class="footer-nav" aria-label="navigation">
+        <div class="nav-name">Quick Links</div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#reg">register</a></li>
+          <li><a href="#offer">Attendance sheet</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="newsletter">
+        <div class="newsletter__title">For students help</div>
+        <div class="newsletter__text">
+          Any questions
+        <footer> 
+        </div>
+        <form class="newsletter__input">
+          <input type="text" class="form" placeholder="example@domine.com" />
+          <img src="attend.jpg"
+            alt="send icon" class="send-icon" width="36" height="36" />
+        </form>
+      </div>
+
+      <div class="legel">
+        <p class="text">FACE DETECT ATTENDANCE</p>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
